@@ -1,0 +1,19 @@
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+body > textarea {
+  height: 10em;
+  width: 70%;
+}
+
+body > button {
+  margin: 2em 0;
+}
+
+body > button#autoCopy {
+  margin: 1em 0;
+  padding: 2em;
+}
+
